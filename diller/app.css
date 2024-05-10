@@ -1,0 +1,47 @@
+.kart{
+  width: 299px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+h1{
+  text-align: center;
+  font-size: 45px;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+h4{
+ margin-top: -20px;
+  text-align: center;
+}
+
+h6{
+  margin-top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: red;
+}
+
+.social-icons{
+ 
+list-style: none; 
+display: flex;
+font-size: 30px;
+justify-content: center;
+margin-right: 37px;
+margin-top: -10px;
+}
+
+.social-icons li {
+  margin-right: 10px; /* İkonlar arasında sağda 20 piksellik boşluk bırakır */
+}
+
+button {
+  width: 299px;
+  height: 35px; /* Örneğin, yüksekliği 40 piksel olarak artırabilirsiniz */
+  display: inline-block;
+  margin-bottom: 13px;
+  font-size: 26px;
+  text-align: center;
+  background-color: bisque;
+}
